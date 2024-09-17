@@ -1,0 +1,18 @@
+{
+  "manifest_version": 1,
+  "name": "Memory Game",
+  "version": "1.0",
+  "description": "  simple memory game built with HTML, CSS, and JavaScript.",
+  "author": "Ajay Dhangar",
+  "permissions": ["storage"],
+  "optional-permissions": ["tabs"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["index.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
